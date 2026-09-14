@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<head>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <Title>
-        Relay YSWS
-    </Title>
-</head>
+<html>
+    <head>
+        <style>
+            @font-face {
+                font-family: "Font";
+                src: url(font-bold.ttf);
+            }
 
-<body>
-    <div class="flex h-50">
-        <div class=" flex-1">
-            <p class="text-center text-[50px]">Title</p>
-            <p class="text-center">The text below it</p>
-        </div>
+            body {
+                font-family: "Font";
+            }
+        </style>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <Title>
+            Relay YSWS
+        </Title>
+    </head>
+
+    <body class="bg-[url('GRID.svg')] bg-fixed bg-center bg-[#1b2838] bg-size-[auto_100px]">
+        <div class="flex h-70">
+            <div class=" flex-1">
+                <p class="text-center text-[50px]">Title</p>
+                <p class="text-center">The text below it</p>
+            </div>
+            
+            <p class="text-center flex-1">hi</p>
         
-        <p class="text-center flex-1">hi</p>
-    
-    </div>
-
-    <div class="flex flex-row-reverse">
-        <div class="bg-blue-500 m-10 w-60 p-7 grid grid-cols-1 gap-4 rounded-xl">
-            <a class="bg-green-500 p-2 text-center rounded-xl" href="https://github.com/Regonold520">
-                Submit
-            </a>
-
-            <a class="bg-yellow-500 p-2 text-center rounded-xl" href="https://github.com/Kaplin86">
-                Guides :]
-            </a>
         </div>
-    </div>
-</body>
+
+        <div class="flex flex-row-reverse">
+            <div class="bg-[#2a475e] m-10 w-60 p-7 grid grid-cols-1 gap-4 rounded-xl">
+                <a class="bg-[#66c0f4] p-2 text-center rounded-xl transition hover:scale-110" href="https://github.com/Regonold520">
+                    Submit
+                </a>
+
+                <a class="bg-[#66c0f4] p-2 text-center rounded-xl transition hover:scale-110" href="https://github.com/Kaplin86">
+                    Guides :]
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
